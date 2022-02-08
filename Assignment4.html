@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Signup form for joining Community</title>
+    <style>
+        *{
+            margin:auto;
+            padding: 6px;
+
+            background-color: blanchedalmond;
+        }
+        .button,h1{
+            text-align: center;
+            color:red;
+            border: 5px;
+
+        }
+        .submit:hover, .reset:hover{
+            background-color: blue;
+            color:white;
+        }
+
+    </style>
+</head>
+<body>
+    <form method="">
+        <h1>Community Group Joining Form</h1> 
+        <label >Name:</label>
+        <input type="text" placeholder="firstname">
+        <input type="text" placeholder="lastname"> <br><br>
+       
+
+        <labe>Gender:</label><br><br>
+            <input type="radio" name="gender" value="male"> Male <br><br>
+            <input type="radio" name="gender" value="Female"> Female <br><br>
+            <input type="radio" name="gender" value="Other"> Other <br> <br>
+        <label >Date of Birth:</label>
+        <input type="date" name="start"><br><br>
+
+
+        <label>Choose your favourite color</label> 
+        <input type="color"><br><br>
+
+        <label>Email:</label>
+        <input type="text" placeholder="ex:abcd@gmail.com"><br><br>
+
+        <label>Contact no.:</label> 
+        <input type="text" placeholder="+91"><br><br>
+
+    <div>
+        <label>Address:</label><br>
+        <input type="text" input size="90%" placeholder="Home/Town"><br><br>
+    </div>    
+    <label for="state">State:</label><br>
+    <select name="state" id="state">
+        <option value="odisha">Odisha</option>
+        <option value="andrapradesh">Andrapradesh</option>
+        <option value="bihar">Bihar</option>
+        <option value="Tamilnadu">Tamilnadu</option>
+    </select> <br> <br>
+
+    <div class="button">
+        <input type="submit" value="submit" class="submit"> 
+        <input type="reset" value="Reset" class="reset">
+    </div>
+    
+    
+       
+    </form>
+</body>
+</html>
